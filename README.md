@@ -12,7 +12,7 @@ The Solidity contracts of Kyzen Network on Robinhood Chain, with their Foundry t
 | Weight registry | `0x9960eb28D2fb78A901E310dd2aB99Ba4ea227d09` | `src/WeightRegistry.sol` |
 | Gateway settlement | `0xe4EdA9794c24c81fB68871AF6e08f2d0519415D2` | `src/GatewaySettlement.sol` |
 
-Each one is verified on Sourcify (exact match) and on Blockscout, compiled with solc 0.8.37, optimizer on at 200 runs, EVM version cancun (`foundry.toml`). Every recorded address is in `deployments/4663.json`. To check them from a terminal: `kyzen verify` ([Kyzen Network CLI](https://github.com/KyzenNetwork/cli)).
+Each one is verified on Sourcify (exact match) and on Blockscout, compiled with solc 0.8.37, optimizer on at 200 runs, EVM version cancun (`foundry.toml`). Every recorded address is in `deployments/4663.json`. The docs list every address with its explorer link: https://docs.kyzen.network/contracts
 
 ## Silicon (Gen 2)
 
