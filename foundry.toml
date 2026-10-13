@@ -1,0 +1,46 @@
+# Kyzen Network contracts (SPEC Step 4). Foundry project, separate from the Next.js app.
+[profile.default]
+src = "src"
+test = "test"
+script = "script"
+out = "out"
+libs = ["dependencies"]
+solc_version = "0.8.37"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+# ./external holds the Uniswap v2 artifacts the testnet script deploys (vm.getCode); the testnet
+# script writes deployment addresses to ./deployments.
+fs_permissions = [
+    { access = "read", path = "./" },
+    { access = "read", path = "./external" },
+    { access = "read-write", path = "./deployments" },
+    # The hashes of the published Silicon methodology texts, which DeploySilicon sets on each feed.
+    { access = "read", path = "./methodology-hashes.json" },
+]
+
+[profile.default.fuzz]
+runs = 1000
+
+[profile.default.invariant]
+runs = 128
+depth = 64
+fail_on_revert = false
+
+# Public getters keep camelCase (the app reads token.pair(), reserve.weth() and so on), and
+# Uniswap's function names are fixed by its ABI.
+[lint]
+exclude_lints = ["screaming-snake-case-immutable", "mixed-case-function"]
+
+[rpc_endpoints]
+robinhood = "https://rpc.mainnet.chain.robinhood.com"
+robinhood_testnet = "https://rpc.testnet.chain.robinhood.com"
+
+[dependencies]
+forge-std = "1.16.2"
+"@openzeppelin-contracts" = "5.7.0"
+
+[soldeer]
+remappings_generate = false
+remappings_regenerate = false
+recursive_deps = false

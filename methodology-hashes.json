@@ -1,0 +1,18 @@
+{
+  "kdesign": {
+    "keccak256": "0xce8fc786166960ff6fd07889bdc00444734b09b676eb5735cdc81d73e10f6629",
+    "bytes": 6636
+  },
+  "kequip": {
+    "keccak256": "0xce3f1c20c8cff3b0d475d77ab50d47e5311f686ae1e740d10d510e3a41e4bcca",
+    "bytes": 6541
+  },
+  "kfab": {
+    "keccak256": "0x65057983771d7d30c3841ad98d68fccadf4f1a1bf25f2f89328c8bbedf0637d4",
+    "bytes": 6615
+  },
+  "kmemory": {
+    "keccak256": "0x79ca695059f495b8b688a00c56d88bb0a8a1f4fdbd18d39fd01553a04fa53338",
+    "bytes": 6634
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "amd": "0xF6396Dc3651888E62cf4fa6c9Ca54535f9564e82",
+  "amdUsdFeed": "0x52Be5331387c6BE7720D5CA9A28337F136c8af1f",
+  "amdWethPair": "0xfEed58E9993fE61C94f620801DEeF87CcD2F4Ca0",
+  "chainId": 46630,
+  "deployer": "0x6997E84336f95579552870B9ae6A8993aB9d1680",
+  "devWallet": "0xcBca9b2128F9d7CfAB9a8e60C16c946BD25F0c00",
+  "ethUsdFeed": "0x02CcdDbaAdDb12477ff3937CD821035730663910",
+  "gatewaySettlement": "0x72b24F4F8DFdB61AF0D10fE2FFb71344aE19783b",
+  "hostPayout": "0x03F78728693067C63275F687E5C1265c71d34015",
+  "keeper": "0x6997E84336f95579552870B9ae6A8993aB9d1680",
+  "kyznToken": "0x99aA5359824c6F55cfEd850359e2AeBc19C21E9f",
+  "kyznWethPair": "0xa1286832eAacaa63b2b605D081a54B0Fc16a0cF1",
+  "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+  "nvda": "0x4B8A5078d9A0b79d12074d2C9063f61b0F344769",
+  "nvdaUsdFeed": "0x686BE96F108D8D323BDD6Fe0cf6756E058a7aADA",
+  "nvdaWethPair": "0xB417b79BD75D1433cB23ee199275381Ee247927b",
+  "operator": "0x6E4B5fc483A0b7E3492a52645A59b939b41d4AC2",
+  "reserve": "0xc36505cd45Ec99ce0D06981eb9bBdd6DAEa658A0",
+  "staking": "0xf083c8246bEc3423c51bcFE27aA64287777e5E17",
+  "uniswapV2Factory": "0xcB5669e03Eb94165fd89c19Be486e3fa8EE269cC",
+  "uniswapV2Router02": "0x2d47E6F2d85D7a8B24Ba1893887166b005d0DEaF",
+  "weightRegistry": "0xd0f9B82095186Ec1E8568ECB8B7C85C8D77534A2",
+  "weth": "0x7943e237c7F95DA44E0301572D358911207852Fa",
+  "silicon": {
+    "auctionDuration": 600,
+    "calendar": "0x9c9ae17Fd92245cc1A60A3468a96f6290dDdc3A0",
+    "deployBlock": 128512485,
+    "feeRouter": "0xeC1c33eA2fbA6721CDcAf44F34bc2f688768061a",
+    "markets": [
+      {
+        "debtCeiling": "250000000000000000950",
+        "feed": "0xc27c354459083DF62ecbd4bFC3d3311A43470E9b",
+        "minDebt": "5000000000000000020",
+        "name": "Design",
+        "symbol": "kDESIGN",
+        "synth": "0x8f256Aa8F0ae6C3ADB4DfAB32abBed903Fb74f0E"
+      },
+      {
+        "debtCeiling": "250000000000000004032",
+        "feed": "0xAbAD3b6c92d27F0e71EC13546B9680B7b3C1Cffc",
+        "minDebt": "5000000000000000081",
+        "name": "Memory",
+        "symbol": "kMEMORY",
+        "synth": "0x1B3e9c65247094818B3d5794b7F2AF15816765e7"
+      },
+      {
+        "debtCeiling": "250000000000000000437",
+        "feed": "0x38F4d629Df3bFdE0917CFF1CAAA30632510cD9ad",
+        "minDebt": "5000000000000000009",
+        "name": "Fab",
+        "symbol": "kFAB",
+        "synth": "0x26Fd1D33d9b7723704fE38662d4f4947807333f5"
+      },
+      {
+        "debtCeiling": "250000000000000004252",
+        "feed": "0xe6AC45EB8a84c6955EE227E7c7e7F4E3E7CAb9EC",
+        "minDebt": "5000000000000000086",
+        "name": "Equipment",
+        "symbol": "kEQUIP",
+        "synth": "0x1B58919437dE1afeae905fe21b787CbbE68AbaAa"
+      }
+    ],
+    "oracle": "0x7C46bBe543883F39e88335Ba3c3EFDb3Bd197CFC",
+    "oracleLongWindow": 1800,
+    "oracleShortWindow": 300,
+    "stockFeeds": {
+      "AMD": "0x31AFcEEEF97beC3982d14143D5D4FE3B9b94dC28",
+      "ASML": "0x3678e925E2437b402fc9dd50d5Af638EA6b1651b",
+      "INTC": "0xE52bcd80803665a9C035067c3C02047896622f4a",
+      "MU": "0xA438d54Ce358822c826025faF4A33867a8B1A811",
+      "NVDA": "0x6335EE668AA14A8AEF4A8Ab7f2b8FaAcb1DBfE3f",
+      "SNDK": "0x153648e577d9538318b7dd609855A4A372C69CA4",
+      "TSM": "0x7342e84255F27a3403A0631a509832Fc375d528E"
+    },
+    "usdg": "0x7B87F6bf8C3C5e06CE783A901eB3c6D7298a110D",
+    "vault": "0x03B38e7a5e7B11e4066Fe5f6828317318Ce2A449"
+  }
+}
